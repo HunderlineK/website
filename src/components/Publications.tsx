@@ -39,7 +39,7 @@ export default function () {
   return (
     <Stack>
       {publications.map((publication) => (
-        <Publication {...publication} />
+        <Publication {...publication} key={publication.title} />
       ))}
     </Stack>
   );
