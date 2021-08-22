@@ -2,12 +2,12 @@ import { Link } from "@chakra-ui/react";
 
 export default function Projects() {
   return (
-    <Link href="https://figura.vercel.app" isExternal>
-      <p>
+    <p>
+      <Link href="https://figura.vercel.app" isExternal>
         <strong>Figura</strong>
         <br />
         Digital Art Compendium
-      </p>
-    </Link>
+      </Link>
+    </p>
   );
 }
