@@ -7,7 +7,7 @@ import {
   Box,
   Text
 } from "@chakra-ui/react";
-import * as React from "react";
+import { ReactElement } from "react";
 import { useRecoilState } from "recoil";
 
 import Section from "./Section";
@@ -17,7 +17,7 @@ import Links from "./Links";
 
 import { contentState } from "../states";
 
-const sections: [string, React.ReactElement][] = [
+const sections: [string, ReactElement][] = [
   ["resume", <Resume />],
   ["projects", <Projects />]
 ];

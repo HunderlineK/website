@@ -17,7 +17,13 @@ const educations = [
   }
 ];
 
-function Education({ title, university, year, gpa }) {
+type EductionProps = {
+  title: string;
+  university: string;
+  year: number;
+};
+
+function Education({ title, university, year }: EductionProps) {
   return (
     <Stack>
       <strong>
@@ -99,7 +105,21 @@ const experiences: [string, Experience[]][] = [
   ]
 ];
 
-function Position({ title, organization, start, end, description }) {
+type PositionProps = {
+  title: string;
+  organization: string;
+  start: string;
+  end: string;
+  description: string;
+};
+
+function Position({
+  title,
+  organization,
+  start,
+  end,
+  description
+}: PositionProps) {
   return (
     <Stack spacing="0">
       <strong>

@@ -1,4 +1,4 @@
-import * as React from "react";
+import { ReactElement } from "react";
 
 import {
   AccordionItem,
@@ -8,7 +8,12 @@ import {
   Box
 } from "@chakra-ui/react";
 
-function Section({ title, content }) {
+type SectionProps = {
+  title: ReactElement | string;
+  content: ReactElement | string;
+};
+
+function Section({ title, content }: SectionProps) {
   return (
     <AccordionItem>
       <h2>
