@@ -19,7 +19,11 @@ function Section({ title, content }: SectionProps) {
       <h2>
         <AccordionButton
           _expanded={{ bg: "#4c362dc9", color: "white" }}
-          _focus={{ border: "none", borderLeft: "1px solid black" }}
+          _focus={{
+            border: "none",
+            borderLeft: "1px solid black",
+            borderRight: "1px solid black"
+          }}
         >
           <Box flex="1" textAlign="left">
             {title}

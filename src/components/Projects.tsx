@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <p>
       <strong>
-        <Link href="https://figura.vercel.app" target="blank">
+        <Link href="https://figura.vercel.app" isExternal>
           Figura
         </Link>
       </strong>
