@@ -35,7 +35,7 @@ export default function Main() {
         width={{ base: "100%", md: "48em" }}
         height="100%"
       >
-        <Stack marginLeft="4" marginTop="4" marginBottom="16" spacing="4">
+        <Stack marginTop="4" marginBottom="16" spacing="4">
           <Heading as="h1" size="3xl">
             Houman Kamali
           </Heading>
